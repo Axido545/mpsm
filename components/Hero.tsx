@@ -52,7 +52,7 @@ const Hero = () => {
                                 flex-col items-center justify-center'>
                                     <h2 className='uppercase tracking-widest text-xs text-center
                                     text-blue-100 max-w-80'>
-                                        Dynamic Web Magic with Next.js
+                                        Dynamic Web Magic
                                     </h2>
 
                                     {/**
@@ -66,8 +66,8 @@ const Hero = () => {
                                     />
 
                                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                                    Hi, I&apos;m Sabrina a next.js developer
-                                    based in Paris
+                                    Hi, I&apos;m Sabrina a graphic designer, webmaster & developer
+                                    based in north of Paris
                                     </p>
 
                                 <a href="#about">
