@@ -3,6 +3,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { Imprima } from "next/font/google";
 import { FaHome } from "react-icons/fa";
 import Grid from "@/components/Grid"
+import RecentProjects from "@/components/RecentProjects";
 export default function Home() {
   return <>
     <main className="relative bg-black-100 flex
@@ -14,6 +15,7 @@ export default function Home() {
         ]}/>
         <Hero />
         <Grid />
+        <RecentProjects/>
       </div>
     </main>
   </>
