@@ -6,6 +6,8 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie"
 import animationData from "@/data/confetti.json"
+import MagicButton from "./MagicButton";
+import { IoCopyOutline } from "react-icons/io5";
 
 
 export const BentoGrid = ({
@@ -48,6 +50,12 @@ export const BentoGridItem = ({
   
 }) => {
   const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText('sabrina.mekbel@gmail.com');
+    setCopied(true)
+  }
+
   return (
     <div
       className={cn(
@@ -84,8 +92,8 @@ export const BentoGridItem = ({
     </div>
     { id === 6 && (
       <BackgroundGradientAnimation>
-        <div className="absolute z-50 flex items-center justify-center
-        text-white font-bold "></div>
+        {/* <div className="absolute z-50 flex items-center justify-center
+        text-white font-bold "></div> */}
       </BackgroundGradientAnimation>
 
     )}
@@ -143,6 +151,13 @@ export const BentoGridItem = ({
               }
             }} />
           </div>
+          <MagicButton 
+          title={copied ? 'Email Copied' : 'Copy my email'}
+          icon={<IoCopyOutline/>}
+          position="left"
+          otherClasses="!bg-[#161&a31]"
+          handleClick={handleCopy}
+          />
           </div>
       ) }
     </div>
