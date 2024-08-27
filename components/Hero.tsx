@@ -64,19 +64,18 @@ const Hero = () => {
                                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
                                     words='Transforming concepts into Seamless User Experiences'
                                     />
-
                                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                                     Hi, I&apos;m Sabrina a graphic designer, webmaster & developer
                                     based in north of Paris
                                     </p>
 
-                                <a href="#about">
+                                {/* <a href="#about">
                                     <MagicButton
                                     title="show my work"
                                     icon={<FaLocationArrow/>} 
                                     position='right'
                                     />
-                                </a>
+                                </a> */}
                                 </div>
                             </div>
         </div>
