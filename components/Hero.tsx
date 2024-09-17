@@ -52,7 +52,7 @@ const Hero = () => {
                                 flex-col items-center justify-center'>
                                     <h2 className='uppercase tracking-widest text-xs text-center
                                     text-blue-100 max-w-80'>
-                                        Dynamic Web Magic
+                                        Application Web et CMS
                                     </h2>
 
                                     {/**
@@ -62,20 +62,19 @@ const Hero = () => {
                                     */}            
                                     <TextGenerateEffect
                                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                                    words='Transforming concepts into Seamless User Experiences'
+                                    words='Conception de sites sur mesure adaptés à vos besoins'
                                     />
                                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                                    Hi, I&apos;m Sabrina a graphic designer, webmaster & developer
-                                    based in north of Paris
+                                     Sabrina, conceptrice de site à votre service.
                                     </p>
 
-                                {/* <a href="#about">
+                                <a href="#about">
                                     <MagicButton
-                                    title="show my work"
+                                    title="Voir mes projets"
                                     icon={<FaLocationArrow/>} 
                                     position='right'
                                     />
-                                </a> */}
+                                </a>
                                 </div>
                             </div>
         </div>
