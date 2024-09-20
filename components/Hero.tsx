@@ -65,7 +65,7 @@ const Hero = () => {
                                     words='Conception de sites sur mesure adaptés à vos besoins'
                                     />
                                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                                     Sabrina, conceptrice de site à votre service.
+                                     Toute votre identité visuelle conçues déployée dans tous les supports .
                                     </p>
 
                                 <a href="#about">
