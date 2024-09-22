@@ -1,7 +1,7 @@
 import { companies, workExperience } from '@/data'
 import Image from 'next/image'
 import { Button }  from "./ui/MovingBorders"
-////020810
+
 const Experience = () => {
     return (
         <div >
@@ -10,7 +10,6 @@ const Experience = () => {
                     <div key={id} className='flex md:max-w-6 max-w-32 gap-2'>
                    < img src={img} alt={name} className="md:w-10 w-5"/>
                    < img src={nameImg} alt={name} className="md:w-24 w-20"/>
-
                     </div>
                 ))}
             </div>
@@ -23,7 +22,7 @@ const Experience = () => {
       <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>
         {workExperience.map((card) =>(
             <Button key={card.id}
-                    duration={Math.floor(Math.random() * 1000) +1000}
+                    duration={Math.floor(Math.random() * 1000) +5000}
                     borderRadius='1.75rem'
                     className='flex-1 text-white border-neutral-200 dark:border-slate-800' 
                     >
